@@ -1,0 +1,105 @@
+.rightdiv {
+    padding: 20px;
+
+
+}
+
+.textandbutton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.leftdiv {
+    text-align: center;
+}
+
+.leftdiv h1 {
+    padding: 10px;
+}
+
+.leftdiv p {
+    padding-bottom: 10px;
+    text-align: justify;
+    width: 516px;
+    padding: 5px;
+    font-size: 15px;
+    line-height: 150%;
+
+
+
+
+    color: rgba(0, 0, 0, 0.55);
+
+}
+
+.leftdiv input {
+    padding: 6px;
+    margin: 8px;
+    width: 378px;
+    height: 64px;
+}
+
+.leftdiv button {
+    width: 342px;
+    height: 64px;
+    background: #597EF7;
+    /* Primary/6 */
+
+    border: 1px solid #1890FF;
+    /* drop-shadow / button-primary */
+
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+    border-radius: 2px;
+    color: white;
+    margin-top: 10px;
+}
+
+.searchanddrop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightdiv h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25.14px;
+    line-height: 29px;
+
+    color: rgba(0, 0, 0, 0.85);
+    margin-top: 6px;
+    margin-bottom: 35px;
+}
+
+.searchbar input {
+    width: 240px;
+    height: 40px;
+    padding-left: 6px;
+}
+
+.selectitem select {
+    padding: 4px 12px;
+    width:160px;
+    height:38px;
+}
+.topbar
+{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.rightcontent 
+{
+    display: flex;
+    align-items: center;
+
+}
+.rightcontent h2
+{
+    margin-right:15px;
+
+}
