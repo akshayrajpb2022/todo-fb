@@ -46,10 +46,10 @@
     width: 342px;
     height: 64px;
     background: #597EF7;
-    /* Primary/6 */
+
 
     border: 1px solid #1890FF;
-    /* drop-shadow / button-primary */
+
 
     box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
     border-radius: 2px;
@@ -82,29 +82,30 @@
 
 .selectitem select {
     padding: 4px 12px;
-    width:160px;
-    height:38px;
+    width: 160px;
+    height: 38px;
 }
-.topbar
-{
+
+.topbar {
     display: flex;
     justify-content: space-between;
-    
-    
+
+
 }
-.rightcontent 
-{
+
+.rightcontent {
     display: flex;
     align-items: center;
 
 }
-.rightcontent h2
-{
-    margin-right:25px;
+
+.rightcontent h2 {
+    margin-right: 25px;
     font-family: 'Roboto';
     font-style: normal;
+    font-size: 22px;
     color: rgba(0, 0, 0, 0.55);
-    font-weight: lighter;
+    font-weight: 300;
 
 
 }
