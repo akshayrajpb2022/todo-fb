@@ -21,6 +21,7 @@ const Home = () => {
     const [ query,setquery ]= useState('');
     const [ view,setview ] = useState('all');
     const[username,setusername]= useState('');
+    const navigate = useNavigate();
     
 
     //adding tasks to database
@@ -30,13 +31,13 @@ const Home = () => {
     {
         
         let displayvalues = values.filter((v)=>v.title.toLowerCase().includes(query.toLowerCase()));
-        if(view=="deleted")
+        if(view==="deleted")
         {
             displayvalues=displayvalues.filter((item)=>item.deleted);
         }
         else{
             displayvalues = displayvalues.filter((item)=>!item.deleted);
-            if(view!="all")
+            if(view!=="all")
             {
                 displayvalues=displayvalues.filter((item)=>item[view])
 
@@ -50,6 +51,7 @@ const Home = () => {
 
     useEffect(()=>
     {
+        
         
 
         auth.onAuthStateChanged((user)=>
@@ -76,15 +78,16 @@ const Home = () => {
         })
      
         
-
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     },[])
     
-    const navigate = useNavigate();
+    
     
     
     
     const signout =()=>
     {
+        
         auth.signOut()
         .then(()=>
         {

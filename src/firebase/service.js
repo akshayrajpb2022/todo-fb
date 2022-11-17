@@ -5,7 +5,7 @@ import { set, ref ,update} from "firebase/database";
 
 export const addTask = (title,description) => {
     const taskId = uid();
-        if(title=="")
+        if(title==="")
         {
             return
         }

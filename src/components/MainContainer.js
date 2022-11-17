@@ -4,7 +4,7 @@ const MainContainer = (props) => {
 
         <div className="login">
             <div className="leftpart">
-                <img className="logo" src="logo.png" />
+                <img className="logo" src="logo.png"  alt="logo"/>
                 {props.leftPart}
             </div>
             <div className="rightpart">
