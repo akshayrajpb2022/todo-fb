@@ -129,7 +129,9 @@ const Home = () => {
         </div>
         </div>
         {filteredvalue.map((item) => (
+            <div key={item.id}>
             <ListItems item={item}/>
+            </div>
         ))}
 
     </div>)
