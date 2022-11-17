@@ -113,7 +113,7 @@ const Home = () => {
         <div className="topbar">
         <h1>TODO LIST</h1>
         <div className="rightcontent">
-        <h2>Hey {username}</h2>
+        <h2>Hey,  {username}</h2>
         <MdLogout onClick={signout} />
         </div>
         </div>

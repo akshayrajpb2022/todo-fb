@@ -100,6 +100,11 @@
 }
 .rightcontent h2
 {
-    margin-right:15px;
+    margin-right:25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.55);
+    font-weight: lighter;
+
 
 }
